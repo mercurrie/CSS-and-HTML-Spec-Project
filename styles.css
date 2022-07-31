@@ -1,0 +1,55 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.academy{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid black;
+    border-width: 3px;
+}
+
+hr{
+    background-color: black;
+    height: 3px;
+}
+
+.tab{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-items: center;
+}
+
+.title_1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: solid black;
+    border-width: 3px;
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.flx{
+    display: grid;
+    grid-template-columns: 25% 45% 30% ;
+}
+
+.author{
+    display: grid;
+    grid-column-start: 2;
+}
+
+.flx_2{
+    display: flex;
+    flex-direction: row;
+}
